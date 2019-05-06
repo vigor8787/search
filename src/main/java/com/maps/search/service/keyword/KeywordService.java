@@ -1,6 +1,5 @@
 package com.maps.search.service.keyword;
 
-import jdk.nashorn.internal.runtime.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Range;
 import org.springframework.data.redis.core.ReactiveRedisOperations;
@@ -12,7 +11,6 @@ import reactor.core.publisher.Mono;
 import javax.annotation.PostConstruct;
 
 @Service
-@Logger
 public class KeywordService {
 
     @Autowired
